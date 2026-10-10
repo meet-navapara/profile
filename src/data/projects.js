@@ -37,6 +37,54 @@ export const portfolioCategories = [
 
 export const projects = [
   {
+    id: 'zimji',
+    title: 'zimji',
+    category: 'Web App',
+    tags: ['Web App', 'AI', 'E-commerce'],
+    result: 'AI virtual try-on for outfits & hair',
+    color: '#101412',
+    year: 2026,
+    url: 'https://www.zimji.com/',
+    thumbnail: '/projects/zimji1.png',
+    screens: [
+      { label: 'Homepage — Instant AI Try-On', image: '/projects/zimji1.png' },
+      { label: 'Outfit Try-On', image: '/projects/zimji2.png' },
+      { label: 'Try-On Pricing', image: '/projects/zimji3.png' },
+    ],
+    description:
+      'zimji is an AI virtual try-on product for shoppers, boutiques, and salons. Customers upload a photo, pay with M-Pesa or Razorpay, and preview outfits, hairstyles, hair color, and beards in seconds. Businesses upload a catalog once and run in-store or online try-ons on prepaid credits.',
+    highlights: [
+      'Consumer try-on flow — photo, payment, instant render',
+      'Boutique and salon catalog with staff dashboard',
+      'M-Pesa and Razorpay pay-per-look pricing',
+      'Outfit, hair, color, and beard try-on experiences',
+    ],
+  },
+  {
+    id: 'zhealth',
+    title: 'Z Health',
+    category: 'Web App',
+    tags: ['Web App', 'Healthcare', 'SaaS'],
+    result: 'Clinic software from check-in to follow-up',
+    color: '#f3efe6',
+    year: 2026,
+    url: 'https://www.zhealth.world/',
+    thumbnail: '/projects/zhealth1.png',
+    screens: [
+      { label: 'Homepage — Clinic Day', image: '/projects/zhealth1.png' },
+      { label: 'Visit Workflow', image: '/projects/zhealth2.png' },
+      { label: 'Day Calendar', image: '/projects/zhealth3.png' },
+    ],
+    description:
+      'Z Health is clinic software for the full patient visit. Doctors and staff share one workspace for registration, the day calendar, consultation notes, billing, and WhatsApp or email follow-up — including multi-branch roles and campaign approvals.',
+    highlights: [
+      'Shared doctor and front-desk clinic workspace',
+      'One visit record from register to follow-up',
+      'Day, week, and month appointment calendar',
+      'Billing, branches, and WhatsApp or email campaigns',
+    ],
+  },
+  {
     id: 'runebond',
     title: 'RUNEBond',
     category: 'Web App',
